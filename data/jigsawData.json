@@ -1,0 +1,155 @@
+{
+  "tasks": [
+    { "id": "soan-so-lieu", "label": "Soạn thảo báo cáo số liệu", "icon": "📊", "type": "logic", "description": "Nhập liệu, tính toán doanh thu tháng trên bảng tính Excel." },
+    { "id": "kich-ban-hai", "label": "Lên kịch bản quảng cáo hài hước", "icon": "🎬", "type": "creative", "description": "Lên ý tưởng kịch bản video vui nhộn 30 giây chạy quảng cáo TikTok." },
+    { "id": "thuyet-phuc-khach", "label": "Gọi điện thuyết phục khách hàng", "icon": "📞", "type": "social", "description": "Trực tiếp gọi điện, tư vấn gói sản phẩm phần mềm cho đối tác." },
+    { "id": "sua-loi-he-thong", "label": "Sửa chữa lỗi hệ thống", "icon": "💻", "type": "logic", "description": "Gỡ lỗi code máy chủ để tránh nghẽn băng thông truy cập." },
+    { "id": "sap-xep-ho-so", "label": "Sắp xếp hồ sơ giấy tờ", "icon": "📁", "type": "operational", "description": "Sắp xếp, phân loại hợp đồng đối tác theo bảng chữ cái." }
+  ],
+  "styleQuestions": [
+    {
+      "id": "workStyle",
+      "title": "Khi tham gia một dự án mới, phong cách làm việc tự nhiên của bạn là:",
+      "options": [
+        { "value": "independent", "label": "Độc lập: Tập trung sâu, tự chủ giải quyết và chịu trách nhiệm chuyên môn riêng biệt." },
+        { "value": "collaborative", "label": "Đồng đội: Thích thảo luận, phối hợp điều hòa tiến độ chung và kết nối mọi người." }
+      ]
+    },
+    {
+      "id": "studyStyle",
+      "title": "Phương pháp tiếp thu kiến thức và kỹ năng mới hiệu quả nhất đối với bạn là:",
+      "options": [
+        { "value": "practical", "label": "Thực chiến: Thử nghiệm thực tế, làm dự án thật và rút kinh nghiệm từ lỗi sai." },
+        { "value": "theoretical", "label": "Bài bản: Đọc hiểu tài liệu, nắm vững nguyên lý nền tảng và quy trình trước khi làm." }
+      ]
+    }
+  ],
+  "industries": [
+    {
+      "id": "kiem-toan",
+      "name": "Kiểm toán viên tài chính",
+      "category": "Cấu trúc",
+      "keywords": ["Tỉ mỉ", "Logic", "Quy trình"],
+      "awesome": "Môi trường chuẩn mực rạch ròi, không ai làm phiền bạn trong những giai đoạn tập trung cao độ.",
+      "terrible": "Áp lực rà soát sổ sách căng thẳng mùa cao điểm, ngồi trước máy tính 12 tiếng mỗi ngày.",
+      "details": {
+        "title": "Kiểm toán viên tài chính",
+        "category": "Tài chính & Thuế",
+        "salaryRange": "12 - 28 triệu VNĐ",
+        "jobDemand": "Cao",
+        "futureOutlook": "Kiểm toán đóng vai trò cốt lõi trong minh bạch tài chính doanh nghiệp, đòi hỏi tính độc lập cao.",
+        "skillsRequired": ["Phân tích tài chính", "Sử dụng Excel nâng cao", "Đọc hiểu chuẩn mực IFRS", "Tính chính trực"],
+        "matchReason": "Khả năng phân loại logic xuất sắc và thói quen làm việc tỉ mỉ, tuân thủ cấu trúc của bạn là chìa khóa thành công cho ngành này.",
+        "cities": ["Hà Nội", "TP Hồ Chí Minh"]
+      }
+    },
+    {
+      "id": "ky-su-ai",
+      "name": "Kỹ sư Trí tuệ Nhân tạo",
+      "category": "Cấu trúc",
+      "keywords": ["Logic", "Kỹ thuật", "Tối ưu"],
+      "awesome": "Cảm giác phấn khích cực độ khi mô hình máy học chạy thử nghiệm giải quyết thành công bài toán phức tạp.",
+      "terrible": "Ngồi hàng ngày trời gỡ lỗi các lỗi toán học ẩn giấu hay sự thiếu hụt dữ liệu sạch.",
+      "details": {
+        "title": "Kỹ sư Trí tuệ Nhân tạo",
+        "category": "Công nghệ thông tin",
+        "salaryRange": "25 - 60 triệu VNĐ",
+        "jobDemand": "Cao",
+        "futureOutlook": "Trọng tâm của làn sóng công nghệ toàn cầu, cơ hội thăng tiến và thu nhập không giới hạn.",
+        "skillsRequired": ["Lập trình Python/C++", "Xác suất thống kê", "Xây dựng mô hình máy học", "Tư duy giải thuật"],
+        "matchReason": "Thói quen ưu tiên xử lý hệ thống kỹ thuật và tư duy phân tích độc lập giúp bạn làm chủ các cấu trúc giải thuật phức tạp.",
+        "cities": ["Hà Nội", "TP Hồ Chí Minh", "Hải Phòng"]
+      }
+    },
+    {
+      "id": "thiet-ke-do-hoa",
+      "name": "Thiết kế Đồ họa",
+      "category": "Tự do",
+      "keywords": ["Sáng tạo", "Trực quan", "Thẩm mỹ"],
+      "awesome": "Tự do thể hiện cá tính sáng tạo qua màu sắc, hình ảnh và tạo ra những sản phẩm truyền thông lan tỏa.",
+      "terrible": "Phải liên tục điều chỉnh bản vẽ theo các yêu cầu mâu thuẫn hoặc chủ quan của đối tác.",
+      "details": {
+        "title": "Thiết kế Đồ họa / UI Designer",
+        "category": "Thiết kế & Sáng tạo",
+        "salaryRange": "15 - 35 triệu VNĐ",
+        "jobDemand": "Cao",
+        "futureOutlook": "Bùng nổ truyền thông số tạo điều kiện cho các nhà thiết kế trải nghiệm phát triển mạnh mẽ.",
+        "skillsRequired": ["Adobe Creative Cloud", "Thiết kế giao diện Figma", "Tư duy bố cục & màu sắc", "Kể chuyện thị giác"],
+        "matchReason": "Khát vọng tự do biểu đạt kết hợp với độ nhạy bén trực quan giúp bạn biến ý tưởng trừu tượng thành tác phẩm nghệ thuật ứng dụng xuất sắc.",
+        "cities": ["TP Hồ Chí Minh", "Hà Nội", "Đà Nẵng"]
+      }
+    },
+    {
+      "id": "growth-marketer",
+      "name": "Growth Marketer",
+      "category": "Tự do",
+      "keywords": ["Linh hoạt", "Dữ liệu", "Giao tiếp"],
+      "awesome": "Thấy các số liệu tăng trưởng của chiến dịch tiếp thị vọt lên trực quan sau ý tưởng sáng tạo của mình.",
+      "terrible": "Áp lực KPI doanh số đè nặng và thuật toán quảng cáo thay đổi liên tục hàng ngày.",
+      "details": {
+        "title": "Growth Marketing Strategist",
+        "category": "Kinh doanh & Tiếp thị",
+        "salaryRange": "16 - 38 triệu VNĐ",
+        "jobDemand": "Cao",
+        "futureOutlook": "Thương mại số bùng nổ đòi hỏi nhân sự tiếp thị phải làm chủ số liệu thực chiến để thúc đẩy tăng trưởng.",
+        "skillsRequired": ["Tối ưu quảng cáo số", "A/B Testing & Phân tích số liệu", "Sáng tạo thông điệp", "Tối ưu hóa phễu chuyển đổi"],
+        "matchReason": "Sự pha trộn giữa óc sáng tạo tự do và tư duy thực chiến dựa trên dữ liệu giúp bạn thích ứng cực nhanh với biến động thị trường.",
+        "cities": ["TP Hồ Chí Minh", "Hà Nội"]
+      }
+    },
+    {
+      "id": "quan-tri-nhan-su",
+      "name": "Quản trị Nhân sự",
+      "category": "Con người",
+      "keywords": ["Kết nối", "Thấu cảm", "Hòa giải"],
+      "awesome": "Giúp kết nối ứng viên tiềm năng vào công việc mơ ước và đồng hành xây dựng văn hóa doanh nghiệp hạnh phúc.",
+      "terrible": "Thường xuyên phải giải quyết các mâu thuẫn quyền lợi nội bộ căng thẳng và trực tiếp thông báo sa thải.",
+      "details": {
+        "title": "Chuyên viên Quản trị Nhân sự",
+        "category": "Quản trị & Con người",
+        "salaryRange": "12 - 25 triệu VNĐ",
+        "jobDemand": "Trung bình",
+        "futureOutlook": "Môi trường doanh nghiệp hiện đại ngày càng đề cao trải nghiệm nhân viên và sức khỏe tinh thần tại nơi làm việc.",
+        "skillsRequired": ["Giao tiếp & lắng nghe chủ động", "Giải quyết tranh chấp", "Đào tạo nội bộ", "Hiểu biết luật lao động"],
+        "matchReason": "Khả năng thấu cảm cao cùng sở thích phối hợp điều phối tương tác đội nhóm biến bạn thành sợi dây liên kết tuyệt vời của doanh nghiệp.",
+        "cities": ["Hà Nội", "TP Hồ Chí Minh"]
+      }
+    },
+    {
+      "id": "sang-tao-noi-dung",
+      "name": "Nhà sáng tạo Nội dung",
+      "category": "Tự do",
+      "keywords": ["Sáng tạo", "Biểu đạt", "Xu hướng"],
+      "awesome": "Được tự do làm việc mọi lúc mọi nơi, xây dựng thương hiệu cá nhân và nhận sự yêu mến của cộng đồng.",
+      "terrible": "Khủng hoảng thiếu hụt ý tưởng sáng tạo và áp lực giữ tương tác trước sự thay đổi của thuật toán mạng xã hội.",
+      "details": {
+        "title": "Content Creator / Copywriter",
+        "category": "Thiết kế & Sáng tạo",
+        "salaryRange": "10 - 25 triệu VNĐ",
+        "jobDemand": "Cao",
+        "futureOutlook": "Nền kinh tế sáng tạo nội dung (Creator Economy) đang mở ra hàng ngàn cơ hội làm việc độc lập chất lượng.",
+        "skillsRequired": ["Viết lách sáng tạo", "Biên tập video ngắn", "Nghiên cứu thị hiếu công chúng", "Kể chuyện thương hiệu"],
+        "matchReason": "Nhu cầu tự do cao cùng khả năng thấu hiểu tâm lý đám đông giúp bạn liên tục tạo ra những sản phẩm truyền thông thu hút.",
+        "cities": ["Hà Nội", "TP Hồ Chí Minh"]
+      }
+    },
+    {
+      "id": "bac-si-tam-ly",
+      "name": "Chuyên gia tham vấn Tâm lý",
+      "category": "Con người",
+      "keywords": ["Thấu cảm", "Lắng nghe", "Trị liệu"],
+      "awesome": "Trực tiếp giúp đỡ những người đang chịu đựng áp lực tinh thần tìm lại sự cân bằng và định hướng cuộc đời.",
+      "terrible": "Phải tiếp nhận khối lượng lớn câu chuyện u uất tiêu cực của khách hàng hàng ngày, dễ dẫn đến quá tải cảm xúc cá nhân.",
+      "details": {
+        "title": "Chuyên gia tư vấn Tâm lý học",
+        "category": "Y tế & Giáo dục",
+        "salaryRange": "15 - 30 triệu VNĐ",
+        "jobDemand": "Trung bình",
+        "futureOutlook": "Sức khỏe tinh thần trở thành ưu tiên hàng đầu trong xã hội hiện đại, thúc đẩy nhu cầu tư vấn tâm lý tăng cao.",
+        "skillsRequired": ["Thấu cảm phi phán xét", "Lắng nghe chủ động", "Chẩn đoán tâm lý", "Bảo mật thông tin tuyệt đối"],
+        "matchReason": "Khả năng đồng cảm sâu sắc phi phán xét của bạn là chỗ dựa tinh thần vô giá để dẫn dắt mọi người qua khủng hoảng.",
+        "cities": ["Hà Nội", "TP Hồ Chí Minh"]
+      }
+    }
+  ]
+}

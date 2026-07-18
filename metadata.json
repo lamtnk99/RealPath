@@ -1,0 +1,6 @@
+{
+  "name": "RealPath",
+  "description": "Khám phá bản thân và định hướng nghề nghiệp bằng AI - Trải nghiệm tương tác cao cấp dành cho thế hệ trẻ.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
