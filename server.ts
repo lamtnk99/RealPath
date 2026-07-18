@@ -40,8 +40,8 @@ app.get("/api/ai-status", (req, res) => {
   res.json({
     status: "ok",
     mode: isKeyActive ? "realtime_ai" : "simulation",
-    message: isKeyActive 
-      ? "Kết nối trực tiếp với Gemini AI thành công!" 
+    message: isKeyActive
+      ? "Kết nối trực tiếp với Gemini AI thành công!"
       : "Đang sử dụng bộ máy mô phỏng phân tích RealPath"
   });
 });
@@ -1161,7 +1161,7 @@ app.post("/api/analyze-career", async (req, res) => {
   } catch (error: any) {
     console.error("Gemini API Error:", error);
     const fallback = getSimulatedAssessment(answers);
-    return res.status(500).json({ 
+    return res.status(500).json({
       error: "Không thể phân tích dữ liệu bằng AI. Đang kích hoạt bộ máy dự phòng.",
       details: error.message,
       fallbackData: { ...fallback, userInputsMemory: answers }
@@ -1666,4 +1666,9 @@ async function startServer() {
   });
 }
 
-startServer();
+// Chỉ chạy server.listen ở máy local, tránh chạy trên môi trường Serverless của Vercel
+if (!process.env.VERCEL) {
+  startServer();
+}
+
+export default app;
